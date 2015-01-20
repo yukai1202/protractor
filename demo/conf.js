@@ -1,0 +1,6 @@
+
+//var ScreenShotReporter = require('protractor-screenshot-reporter');
+exports.config = {
+  seleniumAddress: 'http://localhost:4444/wd/hub',
+  specs: ['todo-spec.js']
+};
